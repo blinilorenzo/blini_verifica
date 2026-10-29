@@ -1,14 +1,15 @@
+ 
 <!DOCTYPE html> 
 <html lang="it"> 
 <head> 
   <meta charset="utf-8"> 
   <meta name="viewport" content="width=device-width, initial-scale=1"> 
-  <title>Prenota il tuo biglietto!</title> 
+  <title>Prenota il biglietto</title> 
   <link rel="stylesheet" href="style.css"> 
 </head> 
 <body> 
   <header> 
-    <h1>Film di questa settimana</h1> 
+    <h1>Prenota un tavolo</h1> 
       <nav> 
         <ul> 
             <li><a href="index.html">Home</a></li>
@@ -20,22 +21,24 @@
   </header> 
   <main> 
     <section> 
-      <h2>I film in produzione</h2> 
-      <table> 
-        <caption>Film in produzione questa settimana</caption> 
-        <thead> 
-          <tr> 
-            <th scope="col">Titolo</th> 
-            <th scope="col">Durata</th> 
-            <th scope="col">Lingua</th> 
-          </tr> 
-        </thead> 
-        <tbody> 
-          <tr><th scope="row">Avengers EndGame</th><td>180 minuti</td><td>Italiano</td> 
-          <tr><th scope="row">Il Padrino 1</th><td>196 minuti</td><td>Inglese</td>
-          <tr><th scope="row">Cars 1</th><td>124 minuti</td><td>Italiano</td>
-        </tbody> 
-      </table> 
+      <h2>Modulo di prenotazione</h2> 
+      <form> 
+        <p> 
+          <label for="nome">Nome e cognome</label> 
+          <input type="text" id="nome" name="nome"> 
+        </p> 
+        <p> 
+          <label for="email">Email</label> 
+          <input type="email" id="email" name="email"> 
+        </p> 
+        <p> 
+          <label for="data">Data</label> 
+          <input type="date" id="data" name="data"> 
+        </p>  
+        <p> 
+          <button type="submit">Invia prenotazione</button> 
+        </p> 
+      </form> 
     </section> 
   </main> 
   <footer> 

@@ -46,7 +46,7 @@ nav a {
     transition: background-color 0.2s; 
 } 
  
-nav a:hover, 
+
 nav a:focus { 
     background-color: #c0392b; 
 } 
@@ -63,27 +63,6 @@ img {
     height: auto; 
 } 
  
-
-.pizze { 
-    display: flex; 
-    flex-wrap: wrap; 
-    gap: 1.5rem; 
-} 
- 
-.pizza { 
-    flex: 1 1 220px; 
-    padding: 1rem; 
-    background-color: #ffffff; 
-    border-radius: 8px; 
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2); 
-} 
- 
-.pizza img { 
-    display: block; 
-    border-radius: 4px; 
-} 
- 
-
 table { 
     width: 100%; 
     border-collapse: collapse; 
@@ -103,13 +82,11 @@ td {
     text-align: left; 
 } 
  
-/* Intestazione colorata */ 
 thead th { 
     background-color: #8b1a1a; 
     color: #ffffff; 
 } 
  
-/* Righe alternate */ 
 tbody tr:nth-child(even) { 
     background-color: #f3e9d2; 
 } 
