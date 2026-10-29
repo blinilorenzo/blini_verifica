@@ -1,0 +1,7 @@
+# Risposte
+
+## 1. il DOM e' un interfaccia gdi programmazione che illustra le pagine di programmazione html con una struttura ad albero
+
+## 2.                                                                  Il client (browser) controlla le cache locali; se non conosce l’IP del dominio, interroga il DNS.                                             Il DNS traduce il nome in un indirizzo IP                              Il client apre una connessione TCP con il server a quell’IP e, se è HTTPS, negozia TLS.                                                    Il client invia una richiesta HTTP GET /.                              Il server risponde con codice di stato e il documento HTML.                                                                  Il client analizza l’HTML, costruisce il DOM e scarica le risorse collegate con altre richieste.                                     Applica gli stili, calcola il layout e disegna la pagina.
+
+## 3.                                                                 git clone <url>: crea una copia locale nuova dell’intero repository.   Si fa una volta.                                                       git pull: in un repository già esistente, scarica le novità dal remote  e le integra nel branch corrente. Serve per aggiornarsi.
